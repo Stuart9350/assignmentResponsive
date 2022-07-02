@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.head ul{
+    margin-top: 5%;
+    margin-right: 10%;
+}
+.head li{
+    border: 2px solid black;
+    float: right;
+    margin-right: 2%;
+    list-style: none;
+    padding: 5px 25px 5px 25px;
+}
+.head h1{
+    font-size: 60px;
+    padding: 3% ;
+}
+.head p{
+    text-align: end;
+    margin-right: 10%
+}
+.head h4{
+    text-align: center;
+    margin-top: 10%;
+    font-size: 25px;
+}
+.head h2{
+    text-align: center;
+    font-size: 75px;
+    margin-top: 1%;
+}
+.container{
+    height: 500px;
+    width: 100%;
+    margin-top: 3%;
+}
+.box{
+    border: 2px solid black;
+    float: left;
+    margin-left:10%;
+    width: 20%;
+}
+.box img{
+    height: 150px;
+    width: 250px;
+    margin: 7%;
+}
+.box h3{
+    margin: 5%;
+    font-size:25px;
+}
+.box p{
+    margin: 5%;
+}
+.box button{
+    margin: 5%;
+    padding: 6%;
+    float: right;
+    background-color: white;
+    border: 2px solid black;
+    font-size:15px;
+}
+.curr{
+    height: 400px;
+    width: 100%;
+    margin-top: 2%;
+}
+.curr h3{
+    margin-left: 5%;
+    font-size: 25px;
+}
+.curr h1{
+    margin-top: 0;
+    margin-left: 5%;
+    font-size: 60px
+}
+.course{
+    margin-top: 2%;
+    float: left;
+    margin-left: 7%;
+}
+.course h2{
+    border: 2px solid black;
+    padding: 5%;
+    background-color:black;
+    color: white;
+    width: 6%;
+}
+.course h3{
+    font-size: 25px;
+}
+.content{
+    height: 450px;
+    width:100%;
+}
+.content-box{
+    padding:2%;
+    float: left;
+    width: 20%;
+    margin-left:8%;
+    border-bottom: 2px  solid black;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    margin-top: 25px;
+    list-style: none;
+}
+
+.gird{
+    height:500px;
+    margin-left: 5%;
+    margin-top: 2%;
+    margin-right: 5%;
+}
+.gird h2{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-bottom: 2%;
+}
+.gird-box{
+    background-color:gainsboro;
+    height: 150px;
+    float: left;
+    width: 150px;
+    margin-left: 11%;
+    margin-top:3%
+}
+
+.footer{
+    background-color: black;
+    color: white;
+    height: 700px;
+    width:100%;
+    padding-top: 60px;;
+}
+.footer h3{
+    margin-left:5%;
+}
+.footer h1{
+    margin-top: 15px;
+    margin-left:5%;
+}
+.design{
+    margin-top:60px;
+    float: left;
+    margin-left: 13%;
+}
+.design h2{
+    border: 2px solid black;
+    padding: 5%;
+    background-color:white;
+    color: white;
+    width: 6%;
+}
+.design h3{
+    font-size: 25px;
+}
+
+
+@media only screen and (max-width: 1350px) {
+    .box img{
+        width: 230px;
+    }
+    .course{
+        margin-left: 5%;
+    }
+  }
+
+@media only screen and (max-width: 1300px) {
+    .container{
+        height: 450px;
+    }
+    .box h3{
+        font-size:20px;
+    }
+    .design{
+        margin-left: 11%;
+    }
+    .box p{
+        margin: 4%;
+    }
+    .box img{
+        width: 220px;
+    }
+    .curr h1{
+        margin-left: 5%;
+        font-size: 50px
+    }
+    .content{
+        height: 450px;
+    }
+    .content-box{
+        padding:2%;
+        width: 21%;
+        margin-left:7%;
+    }
+    .gird{
+        height:550px;
+    }
+  }
+
+@media only screen and (max-width: 1240px){
+    .head h2{
+        font-size: 55px;
+    }
+    .content{
+        height: 550px;
+    }
+  }
+ @media only screen and (max-width:1215px){
+    .course{
+        margin-left: 3%;
+    }
+    .course h3{
+        font-size: 20px;
+    }
+    .course p{
+        font-size:15px;
+    }
+    .gird-box{
+        margin-left: 9%;
+    }
+    .box img{
+        width: 200px;
+        height: 140px;
+    }
+ }
+ @media only screen and (max-width:1110px){
+    .box img{
+        width: 180px;
+        height: 130px;
+    }
+    .course{
+        margin-left: 150px;
+    } 
+    .curr{
+        height: 600px;
+        width: 100%;
+    }
+    .gird-box{
+        margin-left: 8%;
+    }
+    .box h3{
+        font-size: 15px;
+    }
+    .box p{
+        font-size:10px;
+    }
+    .design{
+        margin-top:60px;
+        float: left;
+        margin-left: 8%;
+    }
+ }
+
+
+
