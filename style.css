@@ -44,7 +44,7 @@
 }
 .box img{
     height: 150px;
-    width: 250px;
+    width: 90%;
     margin: 7%;
 }
 .box h3{
@@ -318,6 +318,139 @@
     }
     .footer{
         height: 1600px;
+    }
+ }
+
+ @media only screen and (max-width: 500px){
+    .head li{
+        border: 1px solid black;
+        padding: 2px;
+    }
+    .head h1{
+        font-size: 25px;
+    }
+    .head p{
+        font-size: 10px;
+    }
+    .head h4{
+        font-size: 15px;
+    }
+    .head h2{
+        font-size:20px;
+    }
+    .container{
+        height:900px;
+    }
+    .box{
+        width: 82%;
+        margin-top: 2%;
+        margin-left:10%;
+    }
+    .box img{
+        width:93%;
+    }
+    .box h3{
+        font-size:25px;
+    }
+    .box p{
+        font-size:15px;
+    }
+    .curr{
+        height: 1200px;
+    }
+    .curr h3{
+        font-size:20px;
+    }
+    .curr h1{
+        font-size:25px;
+    }
+    .course{
+        margin-left: 25%;
+    }
+    .content{
+        height: 1480px;
+    }
+    .content-box{
+        width:75%;
+        padding:6%
+    }
+    .gird{
+        height: 650px;
+    }
+    .gird-box{
+        height: 120px;
+        width:120px;
+        margin-left:9%;
+    }
+    .footer{
+        height: 1600px;
+    }
+ }
+
+ @media only screen and (max-width: 600px){
+    .head li{
+        border: 1px solid black;
+        padding: 2px;
+    }
+    .head h1{
+        font-size: 30px;
+    }
+    .head p{
+        font-size: 10px;
+    }
+    .head h4{
+        font-size: 15px;
+    }
+    .head h2{
+        font-size:25px;
+    }
+    .container{
+        height:900px;
+    }
+    .box{
+        width: 82%;
+        margin-top: 2%;
+        margin-left:10%;
+    }
+    .box img{
+        width:93%;
+        height: 150px;
+    }
+    .box h3{
+        font-size:30px;
+    }
+    .box p{
+        font-size:20px;
+    }
+    .curr{
+        height: 1200px;
+    }
+    .curr h3{
+        font-size:20px;
+    }
+    .curr h1{
+        font-size:25px;
+    }
+    .course{
+        margin-left: 25%;
+    }
+    .content{
+        height: 1850px;
+    }
+    .content-box{
+        width:75%;
+        padding:6%
+    }
+    .gird{
+        height: 550px;
+    }
+    .gird-box{
+        height: 120px;
+        width:120px;
+        margin-left:9%;
+    }
+    .footer{
+        height: 1000px;
     }
  }
 
