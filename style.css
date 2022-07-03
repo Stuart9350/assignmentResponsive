@@ -147,6 +147,8 @@
     margin-top:60px;
     float: left;
     margin-left: 13%;
+    background-color: black;
+    color: white;
 }
 .design h2{
     border: 2px solid black;
@@ -253,6 +255,8 @@
         margin-top:60px;
         float: left;
         margin-left: 8%;
+        background-color: black;
+        color: white;
     }
  }
 
