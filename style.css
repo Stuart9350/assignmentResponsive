@@ -307,9 +307,9 @@
         width:120px;
         margin-left:9%;
     }
-/*     .footer{
-        height: 1600px;
-    }*/
+    .footer{
+        height: 2000px;
+    }
  } 
 
  @media only screen and (max-width: 500px){
@@ -363,9 +363,9 @@
         width:120px;
         margin-left:9%;
     }
-/*     .footer{
-        height: 1600px;
-    }*/
+    .footer{
+        height: 2000px;
+    }
  } 
 
  @media only screen and (max-width: 600px){
@@ -430,9 +430,9 @@
         width:120px;
         margin-left:9%;
     }
-/*     .footer{
-        height: 1000px;
-    }*/
+    .footer{
+        height: 1500px;
+    }
  } 
 
 
