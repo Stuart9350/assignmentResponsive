@@ -14,19 +14,26 @@
     padding: 5px 25px 5px 25px;
 }
 .head h1{
+    font-weight: 800;
     font-size: 60px;
     padding: 3% ;
+    font-family: 'Montserrat', sans-serif;
 }
 .head p{
     text-align: end;
-    margin-right: 10%
+    margin-right: 10%;
+    font-family: 'Montserrat', sans-serif;
 }
 .head h4{
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
     margin-top: 10%;
     font-size: 25px;
 }
 .head h2{
+    font-weight: 800;
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
     font-size: 75px;
     margin-top: 1%;
@@ -48,13 +55,17 @@
     margin: 7%;
 }
 .box h3{
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
     margin: 5%;
     font-size:25px;
 }
 .box p{
+    font-family: 'Montserrat', sans-serif;
     margin: 5%;
 }
 .box button{
+    font-family: 'Montserrat', sans-serif;
     margin: 5%;
     padding: 6%;
     float: right;
@@ -68,10 +79,14 @@
     margin-top: 2%;
 }
 .curr h3{
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
     margin-left: 5%;
     font-size: 25px;
 }
 .curr h1{
+    font-weight: 800;
+    font-family: 'Montserrat', sans-serif;
     margin-top: 0;
     margin-left: 5%;
     font-size: 60px
@@ -82,13 +97,20 @@
     margin-left: 7%;
 }
 .course h2{
+    font-weight: 800;
+    font-family: 'Montserrat', sans-serif;
     border: 2px solid black;
     padding: 5%;
     background-color:black;
     color: white;
     width: 6%;
 }
+.course{
+    font-family: 'Montserrat', sans-serif;
+}
 .course h3{
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
     font-size: 25px;
 }
 .content{
@@ -96,6 +118,7 @@
     width:100%;
 }
 .content-box{
+    font-family: 'Montserrat', sans-serif;
     padding:2%;
     float: left;
     width: 20%;
@@ -114,12 +137,14 @@
     margin-right: 5%;
 }
 .gird h2{
+    font-family: 'Montserrat', sans-serif;
     background-color: black;
     color: white;
     text-align: center;
     margin-bottom: 2%;
 }
 .gird-box{
+
     background-color:gainsboro;
     height: 150px;
     float: left;
@@ -136,9 +161,13 @@
     padding-top: 60px;;
 }
 .footer h3{
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
     margin-left:5%;
 }
 .footer h1{
+    font-weight: 800;
+    font-family: 'Montserrat', sans-serif;
     margin-top: 15px;
     margin-left:5%;
 }
@@ -151,6 +180,8 @@
     color: white;
 }
 .design h2{
+    font-weight: 800;
+    font-family: 'Montserrat', sans-serif;
     border: 2px solid black;
     padding: 5%;
     background-color:white;
@@ -158,6 +189,8 @@
     width: 6%;
 }
 .design h3{
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
     font-size: 25px;
 }
 
@@ -262,7 +295,7 @@
 
  
 
- @media only screen and (max-width:400px){
+ @media only screen and (max-width:399px) and (min-width:300px){
     .container{
         height:900px;
     }
@@ -307,17 +340,27 @@
         width:120px;
         margin-left:9%;
     }
-/*     .footer{
+    .footer{
         height: 1600px;
-    }*/
+    }
  } 
 
- @media only screen and (max-width: 500px){
+ @media only screen and (max-width: 499px) and (min-width:400px){
+    .head li{
+        border: 1px solid black;
+        padding: 2px;
+    }
     .head h1{
-        font-size: 25px;
+        font-size: 30px;
+    }
+    .head p{
+        font-size: 10px;
+    }
+    .head h4{
+        font-size: 15px;
     }
     .head h2{
-        font-size:20px;
+        font-size:25px;
     }
     .container{
         height:900px;
@@ -329,12 +372,13 @@
     }
     .box img{
         width:93%;
+        height: 150px;
     }
     .box h3{
-        font-size:25px;
+        font-size:30px;
     }
     .box p{
-        font-size:15px;
+        font-size:20px;
     }
     .curr{
         height: 1200px;
@@ -349,7 +393,7 @@
         margin-left: 25%;
     }
     .content{
-        height: 1480px;
+        height: 1650px;
     }
     .content-box{
         width:75%;
@@ -363,12 +407,12 @@
         width:120px;
         margin-left:9%;
     }
-/*     .footer{
-        height: 1600px;
-    }*/
+    .footer{
+        height: 1700px;
+    }
  } 
 
- @media only screen and (max-width: 600px){
+ @media only screen and (max-width: 600px) and (min-width:500px){
     .head li{
         border: 1px solid black;
         padding: 2px;
@@ -430,9 +474,9 @@
         width:120px;
         margin-left:9%;
     }
-/*     .footer{
-        height: 1000px;
-    }*/
+    .footer{
+        height: 900px;
+    }
  } 
 
 
