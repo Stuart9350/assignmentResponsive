@@ -255,23 +255,9 @@
     }
  }
 
+ 
+
  @media only screen and (max-width:400px){
-    .head li{
-        border: 1px solid black;
-        padding: 2px;
-    }
-    .head h1{
-        font-size: 25px;
-    }
-    .head p{
-        font-size: 10px;
-    }
-    .head h4{
-        font-size: 15px;
-    }
-    .head h2{
-        font-size:20px;
-    }
     .container{
         height:900px;
     }
@@ -322,18 +308,8 @@
  }
 
  @media only screen and (max-width: 500px){
-    .head li{
-        border: 1px solid black;
-        padding: 2px;
-    }
     .head h1{
         font-size: 25px;
-    }
-    .head p{
-        font-size: 10px;
-    }
-    .head h4{
-        font-size: 15px;
     }
     .head h2{
         font-size:20px;
